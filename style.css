@@ -13,6 +13,7 @@ body, h1, p, ul {
 
 .container {
   max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -46,4 +47,61 @@ body, h1, p, ul {
   color: #E5E7EB;
   text-decoration: none;
   font-size: 18px;
+}
+
+/* hero section */
+
+.hero {
+  background: #1F2937;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+  padding: 48px 0;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 450px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin-bottom: 8px;
+}
+
+.hero-content p {
+  color: #E5E7EB;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.hero-button {
+  display: inline-block;
+  background: #3882F6;
+  text-decoration: none;
+  color: #F9FAF8;
+  font-weight: 600;
+  padding: 8px 40px;
+  border-radius: 8px;
+}
+
+.hero-image {
+  flex: 1;
+  background: #6D727E;
+  color: #F9FAF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  padding: 20px;
+  text-align: center;
 }
