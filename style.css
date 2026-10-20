@@ -6,7 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-body, h1, p, ul {
+body, h1, h2, p, ul {
   margin: 0;
   padding: 0;
 }
@@ -105,3 +105,46 @@ body, h1, p, ul {
   padding: 20px;
   text-align: center;
 }
+
+/* info section */
+
+.info {
+  padding-top: 35px;
+  padding-bottom: 120px;
+}
+
+.info-inner {
+  text-align: center;
+}
+
+.info-inner h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-bottom: 32px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  flex-wrap: wrap;
+}
+
+.info-content {
+  max-width: 165px;
+}
+
+.info-image {
+  height: 160px;
+  width: auto;
+  border: 3px solid #3882F6;
+  border-radius: 8px;
+}
+
+.info-content p {
+  color: #1F2937;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
