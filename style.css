@@ -3,6 +3,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -16,6 +18,10 @@ body, h1, h2, p, ul {
   width: 100%;
   margin: 0 auto;
   padding: 0 24px;
+}
+
+.main {
+  flex: 1;
 }
 
 .main-header {
@@ -208,4 +214,22 @@ body, h1, h2, p, ul {
 
 .getStarted-button {
   border: 2px solid #fff;
+}
+
+/* footer */
+
+footer {
+  background: #1F2937;
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-inner small {
+  color: #E5E7EB;
 }
