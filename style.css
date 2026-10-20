@@ -148,3 +148,31 @@ body, h1, h2, p, ul {
   margin-top: 12px;
 }
 
+/* reviews section */
+
+.reviews {
+  background: #E5E7EB;
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.reviews-content {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.reviews-content p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  margin-bottom: 16px;
+}
+
+.reviews-content span {
+  display: block;
+  text-align: end;
+  font-size: 18px;
+  font-weight: bold;
+}
